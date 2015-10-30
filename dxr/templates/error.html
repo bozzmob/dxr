@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}Server Error - DXR{% endblock %}
+
+{% set state_eof = True %}
+
+{% block content %}
+  <p>
+    {{ error_html }}
+  </p>
+{% endblock %}

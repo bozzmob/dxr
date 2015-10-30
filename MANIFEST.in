@@ -1,5 +1,9 @@
-include README.mkd
+include README.rst
 recursive-include docs *
 
+include dxr/format
+include dxr/static_manifest
 recursive-include dxr/plugins *.py *.so
 recursive-include dxr/static *
+recursive-include dxr/templates *
+recursive-include dxr/hgext *

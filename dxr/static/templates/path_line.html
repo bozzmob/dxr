@@ -1,4 +1,0 @@
-{%- if not is_first_or_only -%}
-<span class="path-separator">/</span>
-{%- endif -%}
-<a href="{{ url }}" {%- if is_dir %} data-path="{{ data_path }}" {% endif %}>{{ display_path }}</a>
